@@ -1,0 +1,1212 @@
+﻿@charset "UTF-8";
+html {
+    font-size: 100%
+}
+
+body {
+    font-family: 'Microsoft Yahei';
+    color: #009c52;
+    font-size: 14px;
+    background-color: #f1f2f6
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: normal
+}
+
+a {
+    color: #6a7780;
+    text-decoration: none;
+    cursor: pointer
+}
+
+hr {
+    width: 94%
+}
+
+blockquote {
+    margin: 1.5em;
+    color: #666;
+    font-style: italic
+}
+
+.left {
+    float: left !important
+}
+
+.right {
+    float: right !important
+}
+
+.clearfix:after, .container:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden
+}
+
+.clearfix, .container {
+    display: block;
+    *zoom: 1
+}
+
+.clear {
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    font-size: 0
+}
+
+.f12 {
+    font-size: 12px
+}
+
+.f16 {
+    font-size: 16px
+}
+
+.f18 {
+    font-size: 18px
+}
+
+.f20 {
+    font-size: 20px
+}
+
+.f24 {
+    font-size: 24px
+}
+
+.f28 {
+    font-size: 28px
+}
+
+.f32 {
+    font-size: 32px
+}
+
+.fb {
+    font-weight: bold
+}
+
+.clear {
+    clear: both
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0
+}
+
+.header {
+    background-color: #f1f2f6;
+    border-bottom: 2px #009c52 solid
+}
+
+.header-top {
+    background-color: #009c52;
+    color: #fff;
+    height: 35px;
+    line-height: 35px
+}
+
+.header-top a, .header-top a:hover {
+    color: #fff
+}
+
+.header-nav {
+    height: 100px
+}
+
+.header-nav .nav li {
+    float: left;
+    padding-right: 64px;
+    margin-top: 55px;
+    color: #547181
+}
+
+.index, .product, .trends, .news, .rule, .card, .header-nav .nav li .a:hover {
+    padding-bottom: 0;
+    border-bottom: 2px #ff6700 solid
+}
+
+.header-nav .nav li .a {
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden
+}
+
+.header-nav .left {
+    margin-top: 15px
+}
+
+.swiper-container {
+    width: 100%;
+    height: 425px
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.tubiao {
+    width: 1200px;
+    height: 150px;
+    background-color: #f1f2f6;
+    color: #000
+}
+
+.tubiao li {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 25px 0 45px 0
+}
+
+.tubiao .contract {
+    position: relative
+}
+
+.tubiao .contract > span, .tubiao .cover > span, .tubiao .pay > span {
+    width: 70px;
+    height: 70px;
+    display: inline-block
+}
+
+.tubiao .contract > span {
+    background: url(../images/t-icon.png) no-repeat left top
+}
+
+.tubiao .cover > span {
+    background: url(../images/t-icon.png) no-repeat -104px 0
+}
+
+.tubiao .pay > span {
+    background: url(../images/t-icon.png) no-repeat -208px 0
+}
+
+.tubiao .wenzi {
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    margin: 12px 0 53px 14px
+}
+
+.tubiao .wenzi .f28 {
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+.floor-list .list-main .title a i {
+    background: url(../images/border_01.png) no-repeat 0 top;
+    overflow: hidden
+}
+
+.floor-list {
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px #a0a0a2 solid;
+    border-top: 4px #557186 solid;
+    margin-bottom: 30px;
+    background-color: #fff
+}
+
+.floor-list .left-nav {
+    width: 278px;
+    overflow: hidden;
+    float: left;
+    background: #cee8e5;
+    border-right: 1px #a1a1a1 solid
+}
+
+.floor-list .left-nav .tit {
+    line-height: 36px;
+    font-size: 28px;
+    background: 0;
+    padding: 6px 0 2px
+}
+
+.floor-list .left-nav a {
+    line-height: 20px;
+    padding-left: 6px;
+    margin-top: 3px;
+    background-position: 0 2px;
+    color: #ca6e14;
+    font-size: 16px;
+    display: block
+}
+
+.floor-list .list-main {
+    position: relative;
+    height: 400px;
+    margin-left: 262px;
+    overflow: hidden;
+    background-color: #fff
+}
+
+.floor-list .list-main .more {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    line-height: 50px;
+    font-size: 16px;
+    color: #d5550d
+}
+
+.floor-list .list-main .more em {
+    font-family: tahoma
+}
+
+.floor-list .list-main .title {
+    height: 50px;
+    line-height: 50px;
+    background-color: #f8ebe0
+}
+
+.floor-list .list-main .title li {
+    float: left
+}
+
+.floor-list .list-main .title a {
+    position: relative;
+    z-index: 0;
+    width: 140px;
+    padding-right: 6px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    color: #d5550d
+}
+
+.floor-list .list-main .title a i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 60px;
+    display: none
+}
+
+.floor-list .list-main .title li.active a {
+    background-color: #fff;
+    font-weight: bold
+}
+
+.floor-list .list-main .title li.active a i {
+    display: block
+}
+
+.floor-list .list-box {
+    height: 348px
+}
+
+.floor-list .list {
+    height: 348px;
+    overflow: hidden;
+    display: none
+}
+
+.floor-list .list li {
+    position: relative;
+    width: 289px;
+    height: 324px;
+    margin: 12px 2px 4px 12px;
+    float: left;
+    cursor: pointer
+}
+
+.floor-list .list li .con {
+    position: relative;
+    width: 100%;
+    height: 248px;
+    display: block;
+    cursor: pointer
+}
+
+.floor-list .list li .pic {
+    width: 275px;
+    height: 205px;
+    margin: 4px
+}
+
+.floor-list .list li .name {
+    color: #567385;
+    margin: 0 0 4px 6px;
+    display: inline-block
+}
+
+.floor-list .list li .name span {
+    color: #496f86
+}
+
+.floor-list .list li .n {
+    color: #8a9597;
+    margin: 4px 0 10px 15px
+}
+
+.floor1 .floor-list .list li .n {
+    height: 25px;
+    line-height: 22px
+}
+
+.floor-list .list li {
+    padding: 0;
+    border: 2px #fff solid
+}
+
+.floor-list .list li.active {
+    padding: 0;
+    border: 2px #d2d9af solid
+}
+
+.floor0 .list-main .title, .floor0 .list-main .title a i {
+    background-color: #cde8e4
+}
+
+.floor0 .list-main .title a, .floor0 .list-main .more {
+    color: #009c52
+}
+
+.floor1 .left {
+    width: 928px;
+    height: 400px;
+    background: #cee8e5
+}
+
+.floor1 .right img {
+    height: 402px;
+    border: 1px #9fa0a2 solid
+}
+
+.floor1 .list-main .title, .floor1 .list-main .title a i {
+    background-color: #cde8e4
+}
+
+.floor1 .list-main .title a, .floor1 .list-main .more {
+    color: #009c52
+}
+
+.f24 {
+    color: #50727c;
+    text-align: left;
+    clear: both
+}
+
+.floor_media {
+    width: 1200px;
+    height: 322px;
+    border: 1px #a0a0a2 solid;
+    margin-bottom: 22px;
+    margin-top: 9px;
+    background-color: #fff
+}
+
+.floor_media b {
+    display: inline-block;
+    margin: 6px 15px 3px
+}
+
+.floor_media ul {
+    height: 322px;
+    padding-top: 18px;
+    overflow: hidden
+}
+
+.floor_media ul li {
+    float: left;
+    margin: 0 14px 18px
+}
+
+.floor_media ul a {
+    width: 565px;
+    height: 86px;
+    overflow: hidden;
+    display: block
+}
+
+.floor_media ul a:hover {
+    text-decoration: none
+}
+
+.floor_media ul a:hover p {
+    color: #ff9600
+}
+
+.floor_media ul img {
+    width: 134px;
+    height: 86px;
+    float: left;
+    margin-right: 12px
+}
+
+.floor_media ul p {
+    width: 390px;
+    height: 77px;
+    padding: 9px;
+    overflow: hidden;
+    color: #444;
+    cursor: pointer
+}
+
+.floor_media ul .color {
+    background-color: #cde8e4
+}
+
+.floor_media ul p span {
+    height: 35px;
+    line-height: 18px;
+    color: #737e80;
+    display: block;
+    margin: 0 16px
+}
+
+.footer-friends {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #464646;
+    background-color: #363636;
+    font-size: 12px;
+    color: #fefefe;
+    overflow: hidden
+}
+
+.footer-friends ul li {
+    height: 42px;
+    line-height: 42px;
+    margin-right: 55px
+}
+
+.footer-about {
+    width: 100%;
+    height: 210px;
+    background-color: #2d2d2d;
+    color: #ececec
+}
+
+.footer-about ul {
+    margin-bottom: 60px
+}
+
+.footer-about ul li {
+    margin: 30px 7px 0 1px
+}
+
+.footer-about ul li a {
+    display: block;
+    color: #ececec
+}
+
+.footer-about ul li span {
+    color: #f7630b
+}
+
+.footer-about .container p {
+    padding-bottom: 6px
+}
+
+.footer-about .right {
+    width: 460px;
+    height: 155px;
+    background-color: #424242;
+    margin: 20px 0
+}
+
+.footer-about .right p:first-child {
+    color: #ff5e00;
+    margin: 12px 0 4px 38px
+}
+
+.hot {
+    margin-left: 20px
+}
+
+.hot b {
+    color: #d5630b
+}
+
+.footer-about .container .right img {
+    margin-left: 38px
+}
+
+.card-detail, .news-detail, .rule-detail, .trends-detail {
+    height: 35px;
+    margin-top: 20px
+}
+
+.card-detail span, .news-detail span, .rule-detail span, .trends-detail span {
+    color: #000;
+    display: block
+}
+
+.card-nav, .news-nav, .rule-nav, .trends-nav {
+    height: 42px;
+    background-color: #009c52;
+    margin-bottom: 10px
+}
+
+.card-nav b, .news-nav b, .rule-nav b, .trends-nav b {
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    margin-left: 30px
+}
+
+.card-content, .news-content, .rule-content, .trends-content {
+    border: 1px #98999d solid;
+    margin-bottom: 15px
+}
+
+.card-content ul, .news-content ul, .rule-content ul, .trends-content ul {
+    color: #000;
+    list-style-type: square;
+    margin-left: 55px
+}
+
+.card-content ul li, .news-content ul li, .rule-content ul li, .trends-content ul li {
+    margin: 23px 0
+}
+
+.card-content ul li i, .news-content ul li i, .rule-content ul li i, .trends-content ul li i {
+    display: inline-block;
+    margin-left: 30px
+}
+
+.card-content ul li a i, .news-content ul li a i, .rule-content ul li a i, .trends-content ul li a i {
+    font-style: normal
+}
+
+.card-content .more, .news-content .more, .rule-content .more, .trends-content .more {
+    text-align: center;
+    margin: 19px 0 24px 0
+}
+
+.card-content .more input, .news-content .more input, .rule-content .more input, .trends-content .more input {
+    width: 259px;
+    height: 57px;
+    border: 0;
+    background-color: #a0a0a0;
+    font-size: 16px
+}
+
+.list1-detail {
+    height: 35px;
+    margin-top: 15px
+}
+
+.list1-detail span {
+    color: #000
+}
+
+.list1-content {
+    color: #000;
+    border: 1px #98999d solid;
+    padding: 15px 45px 95px 45px;
+    margin-bottom: 20px
+}
+
+.list1-content h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.list1-content b {
+    height: 26px;
+    inline-height: 26px;
+    display: block;
+    font-weight: normal;
+    text-align: center
+}
+
+.list1-content p {
+    line-height: 200%;
+    text-indent: 35px;
+    margin: 25px 20px 0 30px
+}
+
+.list1-content hr {
+    display: block;
+    margin-bottom: 50px
+}
+
+.list-new {
+    padding-bottom: 30px
+}
+
+.list-banner-box {
+    position: relative;
+    z-index: 10;
+    height: 230px;
+    margin-top: 10px
+}
+
+.list-banner-box .list-banner {
+    height: 230px;
+    overflow: hidden
+}
+
+.list-banner-box .list-banner ul {
+    width: 1200px;
+    height: 230px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.list-banner-box .list-banner li {
+    float: left
+}
+
+.list-banner-box .list-banner li .pbox {
+    position: relative;
+    width: 215px;
+    height: 110px;
+    overflow: hidden;
+    margin: 0 9px 10px 0;
+    text-align: center
+}
+
+.list-banner-box .list-banner li .pbox a {
+    position: absolute;
+    display: block
+}
+
+.list-banner-box .list-banner li .pbox .t {
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    margin-top: -25px;
+    margin-left: -60px;
+    padding: 5px 0;
+    width: 120px;
+    height: 50px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff
+}
+
+.list-banner-box .list-banner li .p-accident .t, .list-banner-box .list-banner li .p-high .t {
+    height: 50px;
+    line-height: 50px
+}
+
+.list-banner-box .list-banner li .pbox .l {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    filter: alpha(opacity=60)
+}
+
+.list-banner-box .list-banner li .p-high {
+    width: 170px;
+    height: 230px;
+    background: url(../images/high_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-high .l {
+    background-color: #f0a5f5
+}
+
+.list-banner-box .list-banner li .p-asset {
+    width: 170px;
+    height: 230px;
+    background: url(../images/aset_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-asset .l {
+    background-color: #fdb17f
+}
+
+.list-banner-box .list-banner li .p-accident {
+    background: url(../images/acdt_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-accident .l {
+    background-color: #94bd9d
+}
+
+.list-banner-box .list-banner li .p-response {
+    background: url(../images/mdc_bg.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-response .l {
+    background-color: #dbc363
+}
+
+.list-banner-box .list-banner li .p-danger {
+    background: url(../images/danger_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-danger .l {
+    background-color: #76c1e1
+}
+
+.list-banner-box .list-banner li .p-certify {
+    background: url(../images/doct_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-certify .l {
+    background-color: #ec7ab8
+}
+
+.list-banner-box .list-banner li .p-machine {
+    background: url(../images/mchn_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-machine .l {
+    background-color: #979370
+}
+
+.list-banner-box .list-banner li .p-workers {
+    background: url(../images/worker_insur.jpg) no-repeat center
+}
+
+.list-banner-box .list-banner li .p-workers .l {
+    background-color: #ff8584
+}
+
+.list-banner-box .list-banner li .p-public {
+    width: 170px;
+    height: 230px;
+    background: url(../images/pub_insur.jpg) no-repeat center;
+    margin: 0
+}
+
+.list-banner-box .list-banner li .p-public .l {
+    background-color: #71b167
+}
+
+.list-banner-box .list-banner li p:hover .t {
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.list-banner-box .list-banner li p:hover .l {
+    background: 0;
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.list-title {
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    color: #666
+}
+
+.list-title i {
+    position: relative;
+    top: 2px;
+    *top: -3px;
+    width: 10px;
+    height: 20px;
+    overflow: hidden;
+    background-color: #ffc97b;
+    display: inline-block;
+    margin-right: 20px
+}
+
+.list-con {
+    padding-left: 1px
+}
+
+.list-con .list {
+    position: relative;
+    z-index: 1;
+    height: 278px;
+    padding: 20px 0 0 38px;
+    border: 1px solid #e0e0e0;
+    margin: -1px 0 0 -1px;
+    background-color: #fff;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    float: left
+}
+
+.list-con .list h2 {
+    height: 72px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: -8px;
+    overflow: hidden;
+    padding-right: 10px
+}
+
+.list-con .list .n {
+    height: 36px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden;
+    padding-top: 6px;
+    text-indent: 0
+}
+
+.list-con .list .s-box {
+    height: 90px;
+    margin: 10px 0;
+    overflow: hidden
+}
+
+.list-con .list .s-box p {
+    color: #525051;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 30px
+}
+
+.list-con .list .price {
+    height: 60px;
+    line-height: 60px;
+    color: #ff575b;
+    font-weight: bold;
+    font-size: 30px;
+    overflow: hidden
+}
+
+.list-con .list .price em {
+    position: relative;
+    top: -2px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 8px
+}
+
+.list-con .list .price span {
+    font-size: 20px;
+    color: #c9c9c9;
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-weight: normal
+}
+
+.list-con .list .custom, .list-con .list .saled {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #a8a8a8;
+    padding-left: 24px;
+    margin-right: 22px;
+    background: url(../images/icon.png) no-repeat 0 3px;
+    overflow: hidden;
+    display: inline-block
+}
+
+.list-con .list .custom, .list-con .list h2 {
+    position: relative;
+    z-index: 3
+}
+
+.list-con .list .custom:hover, .list-con .list h2 a:hover {
+    color: #ff9600
+}
+
+.list-con .list .custom:hover {
+    background-position: 0 -97px
+}
+
+.list-con .list .saled {
+    background: url(../images/icon.png) no-repeat 0 -46px
+}
+
+.list-con .list .a-link {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    *height: 298px;
+    display: block;
+    padding: 1px
+}
+
+.list-con .list-w {
+    width: 660px
+}
+
+.list-con .list-s {
+    width: 460px
+}
+
+.list-con .list:hover {
+    z-index: 2;
+    background: #fff;
+    background-position: bottom right;
+    background-repeat: no-repeat
+}
+
+.list-con .list:hover .a-link {
+    padding: 0;
+    border: 1px solid #597080;
+    box-shadow: 0 0 4px #597080
+}
+
+.page {
+    margin: 20px auto;
+    padding: 30px 0;
+    border-top: 30px #00a980 solid;
+    background-color: #fff
+}
+
+.page hr {
+    width: 1100px
+}
+
+.newPage {
+    width: 1100px;
+    border: 1px #ccc solid
+}
+
+.progress {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin: 80px 0
+}
+
+.progress span {
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    font: bold 14px/20px "SimSun"
+}
+
+.progress p.top span {
+    color: #fff;
+    background: url(../images/p02.jpg) no-repeat
+}
+
+.progress p.top span.active {
+    background: url(../images/p01.jpg) no-repeat
+}
+
+.progress p.bto span {
+    color: #ccc;
+    font-weight: inherit
+}
+
+.progress p.bto span.active {
+    color: #00a980
+}
+
+.user_types {
+    height: auto;
+    overflow: hidden;
+    padding-left: 334px;
+    position: relative
+}
+
+.ul01 .get-code {
+    width: 110px;
+    height: 42px;
+    text-align: center;
+    border: 1px #d6d6d6 solid;
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px
+}
+
+.ul01 li {
+    height: 40px;
+    overflow: hidden;
+    padding: 10px 0 20px 24px;
+    font: 18px/40px "Microsoft Yahei";
+    color: #515151;
+    position: relative
+}
+
+.ul01 li i {
+    background: url(../images/icon.png) no-repeat 0 -193px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 21px
+}
+
+.ul01 li i.active {
+    background: url(../images/icon.png) no-repeat 0 -172px
+}
+
+.ul01 li span {
+    height: 20px;
+    display: inline-block;
+    font: 12px/20px "SimSun";
+    color: #a60000;
+    display: inline-block;
+    position: absolute;
+    left: 106px;
+    top: 50px;
+    display: none
+}
+
+.ul01 li input {
+    height: 38px;
+    border: 1px solid #a8a8a8;
+    background: #fff;
+    width: 240px;
+    text-indent: 10px
+}
+
+.ul01 .getCode input {
+    width: 128px
+}
+
+.sub01 {
+    height: auto;
+    overflow: hidden;
+    margin: 50px 0
+}
+
+.sub01 a {
+    width: 240px;
+    height: 38px;
+    overflow: hidden;
+    background: #00a980;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    font: bold 20px/40px "SimSun";
+    margin-left: 106px;
+    border: 0;
+    text-decoration: none;
+    display: inline-block
+}
+/*关于江泰======开始*/
+.about-all {
+    padding-bottom: 50px;
+    overflow: hidden
+}
+.left-nav {
+    width: 220px;
+    float: left;
+    background: #fff;
+    overflow: hidden
+}
+
+.left-nav li {
+    width: 218px;
+    height: 46px;
+    border: 1px solid #98999D;
+    position: relative;
+    margin-bottom: -1px
+}
+
+.left-nav li a {
+    font-size: 18px;
+    font-family: 'Microsoft YaHei';
+    line-height: 46px;
+    margin-left: 12px
+}
+
+.left-nav li a:hover {
+    color: #05986C
+}
+
+.left-nav li:first-child {
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0
+}
+
+.left-nav li:last-child {
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    margin: 0
+}
+
+.left-nav .active{
+    z-index: 1;
+    background: url(../images/active.png) no-repeat 180px center;
+}
+
+.left-nav .active a {
+    color: #09A276
+}
+.about-right {
+    min-height: 382px;
+    margin-left: 240px;
+    border: 1px solid #98999D;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px 30px
+}
+.about-right .tit {
+    position: relative;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    color: #565656
+}
+
+.about-right .tit i {
+    position: absolute;
+    top: 10px;
+    *top: 5px;
+    left: -20px;
+    width: 9px;
+    height: 9px;
+    font-size: 0;
+    overflow: hidden;
+    background-color: #009F70
+}
+.about-right>ul{
+    display:none;
+}
+.about-right>ul.active{
+    display:block;
+}
+.us-box {
+    padding:0 30px;
+}
+
+.us-box li {
+    padding: 20px 0;
+    border-bottom: 1px solid #98999D;
+}
+
+.us-box li p {
+    color: #000;
+    line-height: 26px;
+    text-indent: 2em;
+    margin-top: 15px;
+}
+
+.us-box .noborder {
+    border: 0
+}
+/*关于江涛======结束*/

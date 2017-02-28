@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>卫生与健康保险网</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<!--头部导航-->
+<div class="header">
+    <div class="header-top">
+        <ul class="container clearfix">
+            <li class="left">客服电话:400-616-8811</li>
+            <li class="right">
+                <a href="load.html">资料下载</a>
+                <s>|</s>
+                <a href="talk.html">论坛</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container header-nav">
+        <div class="left">
+            <a href="#">
+                <img src="images/logo.png" alt=""/>
+            </a>
+        </div>
+        <div class="right f18">
+            <ul class="nav clearfix" id="nav">
+                <li><a class="a" href="index.html">首页</a></li>
+                <li><a class="a" href="trends.html">卫生动态</a></li>
+                <li><a class="a" href="product1.html">保险产品</a></li>
+                <li><a class="a" href="rule.html">政策法规</a></li>
+                <li><a class="a" href="news.html">市场要闻</a></li>
+                <li><a class="a" href="card.html">健康贴士</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bg-login">
+    <div class="container login-container">
+        <div class="login-else-box">
+            <a href="talk.html"><img src="images/talk.png" alt=""/></a>
+        </div>
+        <div class="login-main">
+            <div class="tab-title">
+                <a href="#" tab="login" class="active">登&nbsp;&nbsp;录</a>
+                <a href="#" tab="reg">注&nbsp;&nbsp;册</a>
+            </div>
+            <div class="tab-con">
+                <span class="commonError"></span>
+                <!-- login -->
+                <div class="con-box login-conbox">
+                    <!--账户登陆-->
+                    <ul class="user-login">
+                        <form>
+                            <li class="li-box clearfix">
+                                <label>账号：</label>
+                                <input type="text" class="l-input" id="nameLogin" placeholder="用户名/邮箱/手机号">
+
+                                <p class="change-link fn-left">
+                                    <a href="#" class="changeLink" tab="mobile-login">使用手机验证码登录</a>
+                                    <span class="error"></span>
+                                </p>
+                            </li>
+                            <li class="li-box clearfix">
+                                <label>密码：</label>
+                                <input type="password" class="l-input psdEdnt" id="psdLogin" placeholder="密码">
+                                <span class="error"></span>
+                            </li>
+                            <li class="li-box02"><a href="#" class="submitBtn" id="logUserBtn">立即登录</a></li>
+                            <li class="li-box02">
+                                <p class="check-box clearfix">
+                                    <a href="findpwd/userpwd.html" class="fn-right">忘记密码?</a>
+                                </p>
+                            </li>
+                        </form>
+                    </ul>
+                    <!--手机验证码登陆-->
+                    <ul class="mobile-login none">
+                        <li class="li-box clearfix">
+                            <label>手机：</label>
+                            <input type="text" class="l-input" id="mobileLog" maxlength="11" placeholder="手机">
+
+                            <p class="change-link fn-left">
+                                <a href="#" class="changeLink" tab="user-login">使用账户登录</a>
+                                <span class="error"></span>
+                            </p>
+                        </li>
+                        <li class="li-box clearfix">
+                            <label>验证码：</label>
+                            <input type="text" class="l-input code-input" id="codeLog" maxlength="6" placeholder="验证码">
+                            <a href="javascript:void(0)" class="send-code" id="sendCodeLog">获取验证码</a>
+                            <span class="error"></span>
+                        </li>
+                        <li class="li-box02"><a href="#" class="submitBtn" id="logMobileBtn">立即登录</a></li>
+                    </ul>
+                </div>
+                <!-- reg -->
+                <div class="con-box reg-conbox none">
+                    <div>
+                        <!--手机号码注册-->
+                        <ul class="mobile-reg">
+                            <li class="li-box clearfix">
+                                <label>手机：</label>
+                                <input type="text" class="l-input" id="mobileReg" maxlength="11" placeholder="手机">
+
+                                <p class="change-link fn-left">
+                                    <a href="#" class="changeLink" tab="email-reg">使用邮箱注册</a>
+                                    <span class="error"></span>
+                                </p>
+                            </li>
+                            <li class="li-box clearfix">
+                                <label>验证码：</label>
+                                <input type="text" class="l-input code-input" id="codeReg" placeholder="验证码">
+                                <a href="#" class="send-code" id="sendCode">获取验证码</a>
+                                <span class="error"></span>
+                            </li>
+                            <li class="li-box clearfix">
+                                <label>密码：</label>
+                                <input type="password" class="l-input psdreg" id="psdMReg" placeholder="6-12位的密码">
+                                <span class="error"></span>
+                            </li>
+                            <li class="li-box clearfix">
+                                <label>确认密码：</label>
+                                <input type="password" class="l-input psdconreg" id="psdMConfirmReg" placeholder="确认密码">
+                                <span class="error"></span>
+                            </li>
+                            <li class="li-box02"><a href="#" class="submitBtn regBtn mobileReg"
+                                                    id="regMobileBtn">立即注册</a></li>
+                        </ul>
+                        <!--邮箱注册-->
+                        <ul class="email-reg none">
+                            <li class="li-box clearfix">
+                                <label>电子邮箱：</label>
+                                <input type="text" class="l-input" id="emailReg" placeholder="有效的邮箱地址">
+
+                                <p class="change-link fn-left">
+                                    <a href="#" class="changeLink" tab="mobile-reg">使用手机注册</a>
+                                    <span class="error"></span>
+                                </p>
+                            </li>
+                            <li class="li-box clearfix">
+                                <label>密码：</label>
+                                <input type="password" class="l-input psdreg" id="psdEReg" placeholder="6-12位的密码">
+                                <span class="error"></span>
+                            </li>
+                            <li class="li-box clearfix">
+                                <label>确认密码：</label>
+                                <input type="password" class="l-input psdconreg" id="psdEConfirmReg" placeholder="确认密码">
+                                <span class="error"></span>
+                            </li>
+                            <li class="li-box02"><a href="#" class="submitBtn regBtn emailReg" id="regEmailBtn">立即注册</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="agree-box">
+                        <p class="check-box clearfix">
+                            <span class="active" id="agreeTiao"></span>
+                            同意<a href="#" tab="xieyiCon" class="userAgree">《资料下载协议》</a>和<a href="#" tab="policyCon" class="userAgree">《隐私政策》</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="redirect" value="">
+    <!-- 用户注册协议&隐私政策 -->
+    <div id="userXieyiDialog" class="dialog-box userXieyi-dialog">
+        <div class="t">
+            <span class="title xieyiCon">《资料下载协议》</span>
+            <span class="title policyCon none">《隐私条款》</span>
+            <b title="close">x</b>
+        </div>
+        <div class="c xieyiCon">
+        <textarea readonly class="con">
+资料下载协议
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid asperiores autem beatae blanditiis commodi consequuntur deserunt est excepturi explicabo impedit magnam nam nesciunt, nostrum officiis porro rem repellendus sunt vitae?
+<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facilis mollitia pariatur qui quo sint ullam, voluptatibus. Assumenda, enim eum labore laudantium, minima necessitatibus pariatur perspiciatis, quam repudiandae veniam vero!</span><span>Aperiam dolor error esse est impedit possimus, recusandae voluptatibus? Aliquid corporis delectus ea ipsa quis quod repellat. Aspernatur molestiae nam quibusdam quidem soluta. Minus quos totam ullam! Cum expedita, repellat?</span><span>Ad alias beatae cumque earum facere, provident repellat. A aspernatur atque consectetur deleniti dicta dignissimos expedita incidunt nostrum porro praesentium, veritatis vitae? Ab dolor dolore nobis pariatur possimus quaerat quod.</span><span>Aspernatur assumenda aut debitis dolore excepturi expedita illo minima nisi quas veniam. Aliquam aperiam aut deleniti dignissimos dolore earum itaque labore, nostrum odit quam quasi reprehenderit repudiandae, sapiente ullam veritatis!</span><span>Aliquid aut beatae commodi consequatur cum distinctio dolores ea esse ex, illum iure laboriosam laborum libero minus pariatur perspiciatis quos rem saepe. Accusantium dolores est et eveniet ipsum obcaecati quis!</span>
+        </textarea><br/>
+
+            <p style="text-align: center;"><a href="#" class="tijiao">确定</a></p>
+        </div>
+        <div class="c policyCon none">
+        <textarea readonly class="con">
+隐私政策声明
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sapiente tempora velit voluptas voluptates? Deleniti, dignissimos, eius et explicabo fuga fugiat ipsa ipsam laborum minima odio quasi quia quibusdam, quod.
+        </textarea><br/>
+
+            <p style="text-align: center;"><a href="#" class="tijiao">确定</a></p>
+        </div>
+    </div>
+</div>
+<!--页面底部-->
+<div class="footer-friends">
+    <div class="container">
+        <ul class="clearfix">
+            <li class="left"><span class="f16">友情链接：</span>海南省医疗纠纷人民调解委员会</li>
+            <li class="left">甘肃第三方医疗人民调解委员会</li>
+            <li class="left">新疆医疗纠纷人民调解委员会</li>
+            <li class="left">广东和谐医患纠纷人民调解委员会</li>
+        </ul>
+    </div>
+</div>
+<div class="footer-about">
+    <div class="container">
+        <div class="left">
+            <ul class="clearfix">
+                <li class="left"><a href="aboutjt.html"><span>关于我们</span>&nbsp;|</a></li>
+                <li class="left"><a href="aboutjt.html">公司简介&nbsp;|</a></li>
+                <li class="left"><a href="aboutjt.html">加入我们&nbsp;|</a></li>
+                <li class="left"><a href="load.html">资料下载&nbsp;|</a></li>
+            </ul>
+            <p>版权所有copyright©2012&nbsp;江泰保险经纪股份有限公司&nbsp;All right reserved</p>
+            <p>京公网安备110108020110005号&nbsp;&nbsp;<span>京ICP备06063404号</span></p>
+            <p>地址：北京市东城区安定门外大街1号江苏广电（信义大厦）8-9层&nbsp;邮编：100011</p>
+        </div>
+        <div class="right">
+            <p class="f16">关注二维码</p>
+            <img src="images/wechat.jpg" alt=""/>
+            <span class="hot">客服热线：<b class="f24">400-616-8811</b></span>
+        </div>
+    </div>
+
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>
